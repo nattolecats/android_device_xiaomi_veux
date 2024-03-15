@@ -254,6 +254,11 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     Tag
 
+PRODUCT_PACKAGES += \
+    NQNfcNci \
+    com.nxp.nfc.nq \
+    vendor.nxp.hardware.nfc@2.0-service
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_pn557/android.hardware.nfc.hce.xml \
     frameworks/native/data/etc/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_pn557/android.hardware.nfc.hcef.xml \
@@ -415,6 +420,13 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/xiaomi \
     vendor/qcom/opensource/usb/etc
+
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/nxp/opensource/commonsys/packages/apps/Nfc \
+    vendor/nxp/opensource/commonsys/external/libnfc-nci \
+    vendor/nxp/opensource/interfaces/nfc \
+    vendor/nxp/opensource/halimpl \
+    vendor/nxp/opensource/hidlimpl
 
 # Telephony
 PRODUCT_PACKAGES += \
