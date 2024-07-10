@@ -1058,7 +1058,7 @@ vendor/lib64/libpn557_fw.so
 
 # NFC - from veux_cn
 vendor/etc/libnfc-nci.conf:vendor/etc/libnfc-nci-sn100.conf|1718bb396eb876128b14cdf47e511461fb620f2b
-vendor/etc/libnfc-qrd-SN100.conf:vendor/etc/libnfc-sn100.conf|31330961a0b825e4f196d5c28f5f048cc91fa86e
+vendor/etc/libnfc-qrd-SN100.conf:vendor/etc/libnfc-sn100.conf|c7cf7310855798cd183637c55b5ab1f08373acd2
 vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so|2bc1887b71b4557b75e26465f6917525bfd43e4a
 
 # Neural Networks
